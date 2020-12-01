@@ -44,14 +44,14 @@
 }
 
 .contact-form-textarea {
-    height: 8rem;
+    min-height: 8rem;
     resize: vertical;
 }
 
 .form-submit-button {
     padding: 1rem;
     width: 100%;
-    border: 2px solid white !important;
+    border: 2px solid white;
     color: white;
     letter-spacing: 5px;
     text-transform: uppercase;

@@ -4,7 +4,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 2rem;
+    padding-left: 1rem;
     padding-top: 5rem;
 }
 
@@ -84,9 +84,11 @@ header {
     background-color: #be3803;
 }
 
+
+
 @media(min-width: 500px){
     header {
-        height: 100vh;
+        height: 200vh;
     }
 
     .header-text-container {
@@ -143,4 +145,10 @@ header {
 
 @media(min-width: 1024px) {
     
+}
+
+@media(min-height: 400px) {
+    header {
+        height: 100vh;
+    }
 }
